@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "jamm:blocks/blast_furnace_side",
+        "up": "jamm:blocks/machine_top",
+        "down": "jamm:blocks/machine_bottom",
+        "north": "jamm:blocks/blast_furnace_front_off",
+        "east": "jamm:blocks/machine_side",
+        "south": "jamm:blocks/machine_side",
+        "west": "jamm:blocks/machine_side"
+    }
+}

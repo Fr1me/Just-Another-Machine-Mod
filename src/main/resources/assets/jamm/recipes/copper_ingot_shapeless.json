@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "jamm:copper_block"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "jamm:copper_ingot",
+        "count": 9
+    }
+}

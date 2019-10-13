@@ -1,0 +1,38 @@
+#Noble Metal Blocks
+tile.copper_block.name=Block of Copper
+tile.iridium_block.name=Block of Iridium
+tile.osmium_block.name=Block of Osmium
+tile.palladium_block.name=P`Block of Palladium
+tile.ruthenium_block.name=Block of Ruthenium
+tile.silver_block.name=Block of Silver
+
+#Noble Metal Ingots
+item.ingot_copper.name=Copper Ingot
+item.iridium_ingot.name=Iridium Ingot
+item.osmium_ingot.name=Osmium Ingot
+item.palladium_ingot.name=Palladium Ingot
+item.ruthenium_ingot.name=Ruthenium Ingot
+item.silver_ingot.name=Silver Ingot
+
+#Noble Metal Nuggets
+item.copper_nugget.name=Copper Nugget
+item.iridium_nugget.name=Iridium Nugget
+item.osmium_nugget.name=Osmium Nugget
+item.palladium_nugget.name=Palladium Nugget
+item.ruthenium_nugget.name=Ruthenium Nugget
+item.silver_nugget.name=Silver Nugget
+
+#Noble Metal Ores
+tile.copper_ore.name=Copper Ore
+tile.iridium_ore.name=Iridium Ore
+tile.osmium_ore.name=Osmium Ore
+tile.palladium_ore.name=Palladium Ore
+tile.ruthenium_ore.name=Ruthenium Ore
+tile.silver_ore.name=Silver Ore
+
+#Noble Metal Tools
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_shovel.name=Copper Shovel
+item.copper_sword.name=Copper Sword

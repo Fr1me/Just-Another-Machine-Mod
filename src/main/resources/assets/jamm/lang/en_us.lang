@@ -1,0 +1,10 @@
+item.copper_ingot.name=Copper Ingot
+
+itemGroup.jammtab=Just Another Machine Mod
+
+tile.blast_furnace_off.name=Blast Furnace
+tile.blast_furnace_on.name=Lit Blast Furnace
+tile.copper_block.name=Block of Copper
+tile.malachite_ore.name=Malachite Ore
+
+container.blast_furnace=Blast Furnace
