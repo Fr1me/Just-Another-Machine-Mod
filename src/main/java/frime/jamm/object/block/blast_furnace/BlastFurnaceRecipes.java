@@ -3,11 +3,15 @@ package frime.jamm.object.block.blast_furnace;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
+import com.google.common.collect.Table;
 
 import frime.jamm.init.BlockInit;
 import frime.jamm.init.ItemInit;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -16,6 +20,7 @@ public class BlastFurnaceRecipes
 	private static final BlastFurnaceRecipes COOKING_BASE = new BlastFurnaceRecipes();
 	private final Map<ItemStack, ItemStack> cookingList = Maps.<ItemStack, ItemStack>newHashMap();
 	private final Map<ItemStack, Float> experienceList = Maps.<ItemStack, Float>newHashMap();
+	
 	
 	public static BlastFurnaceRecipes instance()
     {

@@ -1,10 +1,15 @@
+container.blast_furnace=Blast Furnace
+
 item.copper_ingot.name=Copper Ingot
 
 itemGroup.jammtab=Just Another Machine Mod
 
+tile.aqua_regia.name=Aqua Regia
 tile.blast_furnace_off.name=Blast Furnace
 tile.blast_furnace_on.name=Lit Blast Furnace
 tile.copper_block.name=Block of Copper
 tile.malachite_ore.name=Malachite Ore
+tile.nitric_acid.name=Nitric Acid
 
-container.blast_furnace=Blast Furnace
+fluid.aqua_regia=Aqua Regia
+fluid.nitric_acid=Nitric Acid

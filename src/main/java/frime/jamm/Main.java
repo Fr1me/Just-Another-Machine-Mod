@@ -5,6 +5,7 @@ import frime.jamm.tab.TabJAMM;
 import frime.jamm.util.Reference;
 import frime.jamm.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -20,6 +21,10 @@ public class Main {
 	public static Main instance;
 	
 	public static final CreativeTabs jammtab = new TabJAMM("jammtab");
+	
+	static {
+		FluidRegistry.enableUniversalBucket();
+	}
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 		public static CommonProxy proxy;

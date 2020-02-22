@@ -36,7 +36,7 @@ public class TileEntityBlastFurnace extends TileEntityLockable implements ITicka
 	private static final int[] SLOTS_BOTTOM = new int[] {2, 1};
 	private static final int[] SLOTS_SIDES = new int[] {1};
 	
-	private NonNullList<ItemStack> furnaceItemStacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
+	private NonNullList<ItemStack> furnaceItemStacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 	
 	private int furnaceBurnTime;
 	private int currentItemBurnTime;
@@ -211,7 +211,7 @@ public class TileEntityBlastFurnace extends TileEntityLockable implements ITicka
     }
     
     public int getCookTime(ItemStack stack) {
-		return 1000;
+		return 10;
 	}
     
     private boolean canSmelt() {

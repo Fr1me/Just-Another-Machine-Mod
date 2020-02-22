@@ -26,8 +26,8 @@ public class ContainerBlastFurnace extends Container {
 		this.addSlotToContainer(new Slot(furnaceInventory, 0, 26, 35));
 		this.addSlotToContainer(new SlotBlastFurnaceFuel(furnaceInventory, 1, 8, 8));
 		this.addSlotToContainer(new SlotBlastFurnaceOutput(playerInventory.player, furnaceInventory, 2, 134, 17));
-		this.addSlotToContainer(new SlotBlastFurnaceOutput(playerInventory.player, furnaceInventory, 2, 134, 35));
-		this.addSlotToContainer(new SlotBlastFurnaceOutput(playerInventory.player, furnaceInventory, 2, 134, 53));
+		this.addSlotToContainer(new SlotBlastFurnaceOutput(playerInventory.player, furnaceInventory, 3, 134, 35));
+		this.addSlotToContainer(new SlotBlastFurnaceOutput(playerInventory.player, furnaceInventory, 4, 134, 53));
 	
 	for(int y = 0; y < 3; y++) {
 		for(int x = 0; x < 9; x++) {

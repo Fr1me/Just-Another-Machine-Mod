@@ -2,6 +2,7 @@ package frime.jamm.util.handlers;
 
 import frime.jamm.Main;
 import frime.jamm.init.BlockInit;
+import frime.jamm.init.FluidInit;
 import frime.jamm.init.ItemInit;
 import frime.jamm.util.IHasModel;
 import frime.jamm.world.gen.WorldGenCustomOres;
@@ -48,7 +49,10 @@ public class RegistryHandler {
 	}
 	
 	public static void preInitRegistries() {
+		FluidInit.registerFluids();
+		RenderHandler.registerCustomMeshesAndStates();
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		
 	}
 	
 	public static void initRegistries() {
